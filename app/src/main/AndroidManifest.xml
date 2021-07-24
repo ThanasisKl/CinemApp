@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cinemaapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CinemaApp">
+        <activity android:name=".view.customer.payment.PaymentActivity"></activity>
+        <activity android:name=".view.customer.reservationCustomer.CustomerReservationActivity" android:exported="true"></activity>
+        <activity android:name=".view.customer.selectSeats.CustomerSelectSeatActivity" />
+        <activity android:name=".view.customer.rating.addRatings.addRating.premium.AddRatingPremiumActivity" />
+        <activity android:name=".view.customer.CustomerSelectSlot.CustomerSelectSlotActivity" />
+        <activity android:name=".view.customer.rating.readRatings.individualMovie.ReadIndividualMovieActivity" />
+        <activity android:name=".view.customer.rating.addRatings.addRating.normal.AddRatingNormalActivity" />
+        <activity android:name=".view.customer.rating.readRatings.main.ReadRatingsActivity" />
+        <activity android:name=".view.customer.rating.addRatings.main.AddRatingsActivity" />
+        <activity android:name=".view.customer.rating.mainRating.MainRatingActivity" />
+        <activity android:name=".view.owner.manageMovieTheaters.update.ManageMovieTheatersUpdateActivity" />
+        <activity android:name=".view.owner.seeStatistics.individualMovie.SeeStatisticsForIndividualMovieActivity" />
+        <activity android:name=".view.owner.manageMovieTheaters.remove.ManageMovieTheatersRemoveActivity" />
+        <activity android:name=".view.owner.manageMovieTheaters.main.ManageMovieTheatersMainActivity" />
+        <activity android:name=".view.owner.manageMovies.remove.ManageMoviesRemoveActivity" />
+        <activity android:name=".view.owner.manageMovies.main.ManageMoviesMainActivity" />
+        <activity android:name=".view.customer.signUpCustomer.SignUpCustomerActivity" />
+        <activity android:name=".view.main.signup.SignUpActivity" />
+        <activity android:name=".view.customer.selectMovieTheater.CustomerSelectMovieTheaterActivity" />
+        <activity android:name=".view.staff.addMovie.AddMovieActivity" />
+        <activity android:name=".view.customer.selectMovie.CustomerSelectMovieActivity" />
+        <activity android:name=".view.customer.mainActivity.CustomerMainActivity" />
+        <activity android:name=".view.staff.clearProgram.ClearProgramActivity" />
+        <activity android:name=".view.staff.mainActivity.StaffMainActivity" />
+        <activity android:name=".view.staff.selectMovie.StaffSelectMovieActivity" />
+        <activity android:name=".view.owner.seeStatistics.main.SeeStatisticsMainActivity" />
+        <activity android:name=".view.owner.manageMovieTheaters.add.ManageMovieTheatersAddActivity" />
+        <activity android:name=".view.owner.manageMovies.add.ManageMoviesAddActivity" />
+        <activity android:name=".view.owner.addStaff.AddStaffActivity" />
+        <activity android:name=".view.owner.mainActivity.OwnerMainActivity" />
+        <activity android:name=".view.owner.signupOwner.SignUpOwnerActivity" />
+        <activity
+            android:name=".view.main.signin.SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.main.mainActivity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CinemaApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

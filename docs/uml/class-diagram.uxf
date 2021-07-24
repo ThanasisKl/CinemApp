@@ -1,0 +1,277 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;1700&lt;/x&gt;&lt;y&gt;940&lt;/y&gt;&lt;w&gt;990&lt;/w&gt;&lt;h&gt;1830&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;-
+uses&lt;/panel_attributes&gt;&lt;additional_attributes&gt;260;10;950;10;950;1810;10;1810&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;806&lt;/x&gt;&lt;y&gt;1610&lt;/y&gt;&lt;w&gt;370&lt;/w&gt;&lt;h&gt;1100&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;20;10;10;1080;350;1080&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;833&lt;/x&gt;&lt;y&gt;1750&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ReservationDAOMemory
+--
+-reservationList: List&amp;lt;Reservation&amp;gt;
+-autoincrementId:Integer
+--
++save(reservation: Reservation)
++delete(reservationId:Integer)
++update(reservation: Reservation)
++find(reservationId:Integer)
++listReservations()
+-nextId()
+-checkIfExists(reservationId: integer)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;833&lt;/x&gt;&lt;y&gt;1760&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ReservationDAOMemory
+--
+-reservationList: List&amp;lt;Reservation&amp;gt;
+-autoincrementId:Integer
+--
++save(reservation: Reservation)
++delete(reservationId:Integer)
++update(reservation: Reservation)
++find(reservationId:Integer)
++listReservations()
+-nextId()
+-checkIfExists(reservationId: integer)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;702&lt;/x&gt;&lt;y&gt;1710&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;MovieDAOMemory
+--
+-movieList: List&amp;lt;Movie&amp;gt;
+-autoincrementId:Integer
+--
++save(movie:Movie)
++delete(movieId:Integer)
++update(movie: Movie)
++find(movieTitle:String)
++listMovies()
+-nextId()
+-checkIfExists(movieId: integer)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;702&lt;/x&gt;&lt;y&gt;1710&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;MovieDAOMemory
+--
+-movieList: List&amp;lt;Movie&amp;gt;
+-autoincrementId:Integer
+--
++save(movie:Movie)
++delete(movieId:Integer)
++update(movie: Movie)
++find(movieTitle:String)
++listMovies()
+-nextId()
+-checkIfExists(movieId: integer)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;702&lt;/x&gt;&lt;y&gt;1710&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;MovieDAOMemory
+--
+-movieList: List&amp;lt;Movie&amp;gt;
+-autoincrementId:Integer
+--
++save(movie:Movie)
++delete(movieId:Integer)
++update(movie: Movie)
++find(movieTitle:String)
++listMovies()
+-nextId()
+-checkIfExists(movieId: integer)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;702&lt;/x&gt;&lt;y&gt;1710&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;MovieDAOMemory
+--
+-movieList: List&amp;lt;Movie&amp;gt;
+-autoincrementId:Integer
+--
++save(movie:Movie)
++delete(movieId:Integer)
++update(movie: Movie)
++find(movieTitle:String)
++listMovies()
+-nextId()
+-checkIfExists(movieId: integer)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>1557</x><y>0</y><w>410</w><h>270</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+User
+--
+-id:Integer
+-email:String
+-password:String
+-firstName:String
+-lastName: String
+--
++User(Email:String, Password:String, firstName:String, lastName: String)
++ get &amp; set for all atributes</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1717</x><y>260</y><w>30</w><h>330</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;310</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1397</x><y>570</y><w>760</w><h>120</h></coordinates><panel_attributes>Staff
+--
+--
++Staff(email: String, password: String, firsthName: String, lastName: String, staffId: Integer, movieTheater: MovieTheater)
++get &amp; set for all attributes</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2227</x><y>570</y><w>580</w><h>210</h></coordinates><panel_attributes>Owner
+--
+-sn:String
+-AMKA:String
+-movies: list&lt;Movie&gt;
+--
++ Owner(email: String, password: String, firstName: String, lasrName: String, sn: String, AMKA: String)
++get &amp; set for all attributes
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>757</x><y>580</y><w>460</w><h>160</h></coordinates><panel_attributes>Customer
+--
+-typeOfCustomer:ENUMERATION TypeOfCustomer
+--
++Customer(email: String , password: String , firstName: String , lastName: String )
++get &amp; set for all attributes
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>767</x><y>90</y><w>280</w><h>90</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+TypeOfUser
+--
+SIMPLE
+PREMIUM
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>867</x><y>170</y><w>30</w><h>430</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;410</additional_attributes></element><element><id>UMLClass</id><coordinates><x>777</x><y>1370</y><w>380</w><h>120</h></coordinates><panel_attributes>Payment
+--
+-id: Integer
+-amount: float
+-cardNum: String
+--
++Payment(amount: Integer, cardNum:String)
++get &amp; set for all attributes</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1457</x><y>820</y><w>510</w><h>170</h></coordinates><panel_attributes>MovieTheater
+--
+-id:Integer
+-name:String
+-address:String
+-dailySchedule : list&lt;DailySchedule&gt;
+--
++MovieTheater(name: String , address: String, auditoriums: ArrayList&lt;Auditorium&gt; )
++get &amp; set for all attributes
++reserveSlot(slot: Slot, day: Day)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1527</x><y>1100</y><w>340</w><h>130</h></coordinates><panel_attributes>Auditorium
+--
+-id:Integer
+-capacity: Integer
+--
++Auditorium(id: Integer, seats: List&lt;Boolean&gt; capacity: Integer)
++get &amp; set for all attributes</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>127</x><y>600</y><w>460</w><h>170</h></coordinates><panel_attributes>Rating
+--
+-id: Integer
+-score: integer
+-text:String
+-firstName: String
+-lastName: String
+--
++Rating(score: Integer, text:String, firstName:String, lastName: String, movie: Movie)
++get &amp; set for all attributes
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>217</x><y>1440</y><w>240</w><h>180</h></coordinates><panel_attributes>Movie
+--
+-id: Intger
+-title: String
+-duration: Float
+--
++Movie(title: String, duration : Float)
++get &amp; set for all attributes
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>667</x><y>1070</y><w>600</w><h>180</h></coordinates><panel_attributes>Reservation
+--
+-id: Integer
+-numOfSeats: Integer
+--
++Reservation(customer: Customer , numOfSeats: integer , slot: Slots)
++get &amp; set for all attributes</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2157</x><y>1810</y><w>140</w><h>140</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+DAY
+--
+MONDAY
+TUSEDAY
+WEDNESDAY
+THURSDAY
+FRIDAY
+SATURDAY
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1567</x><y>1820</y><w>360</w><h>140</h></coordinates><panel_attributes>DailySchedule
+--
+-day:DAY
+-auditoriums: Arraylist&lt;Auditoriums&gt;
+--
++DailySchedule(day:Day, auditorium:ArrayList&lt;Auditorium&gt;)
++get &amp; set for all attributes
++reserveSlot(start: Integer, auditorium:Auditorium, movie:Movie)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1917</x><y>1880</y><w>260</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>240;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1507</x><y>1480</y><w>390</w><h>260</h></coordinates><panel_attributes>Slot
+--
+-start: integer
+-movie: Movie
+-auditorium: Auditorium
+-available: integer
+-availablePremium: integer
+-seats: Boolean[30]
+--
++Slot(start: Integer, movie: Movie, auditorium: Auditorium)
++get &amp; set for all attributes
++reserveSeats(numOfSeats: Integer,  typeOfUser: TypeOfUser)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1837</x><y>260</y><w>670</w><h>330</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;650;310</additional_attributes></element><element><id>Relation</id><coordinates><x>987</x><y>260</y><w>660</w><h>340</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>640;10;10;320</additional_attributes></element><element><id>Relation</id><coordinates><x>577</x><y>680</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+m2=1</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>957</x><y>730</y><w>40</w><h>360</h></coordinates><panel_attributes>lt=-&gt;
+m1=*
+m2=1
+
+</panel_attributes><additional_attributes>10;340;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1707</x><y>680</y><w>90</w><h>160</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+m2=*</panel_attributes><additional_attributes>10;140;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1687</x><y>980</y><w>50</w><h>140</h></coordinates><panel_attributes>lt=&lt;-&gt;&gt;&gt;&gt;
+m1=1..n</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1687</x><y>1220</y><w>40</w><h>280</h></coordinates><panel_attributes>lt=-&gt;
+m1=*
+m2=1</panel_attributes><additional_attributes>10;260;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>447</x><y>1540</y><w>1080</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+m2=1</panel_attributes><additional_attributes>1060;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1687</x><y>1730</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1257</x><y>1130</y><w>270</w><h>410</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=*</panel_attributes><additional_attributes>250;380;80;380;80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>957</x><y>1240</y><w>50</w><h>150</h></coordinates><panel_attributes>lt=&lt;-
+m1=0...1
+m2=1</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1957</x><y>760</y><w>290</w><h>190</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+m2=1</panel_attributes><additional_attributes>10;160;90;160;90;10;270;10</additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>760</y><w>40</w><h>700</h></coordinates><panel_attributes>lt=&lt;-&gt;
+m1=1
+m2=*</panel_attributes><additional_attributes>10;680;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>679</x><y>2320</y><w>210</w><h>190</h></coordinates><panel_attributes>RatingDAOMemory
+-
+-ratingsList: List&lt;Rating&gt;
+-autoincrementId:Integer
+--
++save(rating: Rating)
++delete(ratingId:Integer)
++update(rating: Rating)
++find(ratingId: Integer)
++listRatings()
+-nextId()
+-checkIfExists(ratingId: integer)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1046</x><y>2599</y><w>210</w><h>190</h></coordinates><panel_attributes>PaymentDAOMemory
+--
+-paymentList: List&lt;pAYMENT&gt;
+-autoincrementId:Integer
+--
++save(payment:Payment)
++find(amount:Integer, creditCardNumber:String)
++listPayments()
+-nextId()
+-checkIfExists(paymentId: integer)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1043</x><y>2320</y><w>210</w><h>190</h></coordinates><panel_attributes>ReservationDAOMemory
+--
+-reservationList: List&lt;Reservation&gt;
+-autoincrementId:Integer
+--
++save(reservation: Reservation)
++delete(reservationId:Integer)
++update(reservation: Reservation)
++find(reservationId:Integer)
++listReservations()
+-nextId()
+-checkIfExists(reservationId: integer)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>670</x><y>2602</y><w>210</w><h>190</h></coordinates><panel_attributes>MovieDAOMemory
+--
+-movieList: List&lt;Movie&gt;
+-autoincrementId:Integer
+--
++save(movie:Movie)
++delete(movieId:Integer)
++update(movie: Movie)
++find(movieTitle:String)
++listMovies()
+-nextId()
+-checkIfExists(movieId: integer)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1441</x><y>2242</y><w>300</w><h>270</h></coordinates><panel_attributes>UserDAOMemory
+--
+-usersList: List&lt;Reservation&gt;
+-autoincrementId:Integer
+--
++save(user: User)
++delete(userId:Integer)
++update(user: User)
++find(email:String)
++findStaff(email: String)
++listUsers()
++listCustomers()
++listStaff()
++getOwner()
++listAllPremiumCustomers()
++listAllNonPremiumCustomers()
+-nextId()
+-checkIfExists(urserId: integer)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1440</x><y>2614</y><w>270</w><h>190</h></coordinates><panel_attributes>MovieTheaterDAOMemory
+--
+-rmovietheatersList: List&lt;MovieTheater&gt;
+-autoincrementId:Integer
+--
++save(movieTheater: MovieTheater)
++delete(movieTheaterId:Integer)
++update(movieTheater: MovieTheater)
++find(movieTheaterName: String)
++listMovieThetaters()
+-nextId()
+-checkIfExists(movieTheaterId: integer)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>316</x><y>1610</y><w>370</w><h>1100</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>20;10;10;1080;350;1080</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>677</y><w>700</w><h>1760</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>130;10;20;10;10;1740;680;1740</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>1240</y><w>480</w><h>1100</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>20;10;10;880;460;880;460;1080</additional_attributes></element><element><id>Relation</id><coordinates><x>940</x><y>1480</y><w>130</w><h>1240</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>20;10;10;1220;110;1220</additional_attributes></element><element><id>Relation</id><coordinates><x>1700</x><y>940</y><w>990</w><h>1830</h></coordinates><panel_attributes>lt=&lt;&lt;-
+uses</panel_attributes><additional_attributes>260;10;950;10;950;1810;10;1810</additional_attributes></element><element><id>Relation</id><coordinates><x>1731</x><y>122</y><w>1410</w><h>2280</h></coordinates><panel_attributes>lt=&lt;&lt;-
+uses</panel_attributes><additional_attributes>240;10;1370;10;1370;2260;10;2260</additional_attributes></element></diagram>
